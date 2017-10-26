@@ -9,29 +9,59 @@ html {
 }
 
 header h1 {
-  background-color: black;
+  background-color: dimgrey;
   color: white;
   display: block;
-  margin: 10% 10% auto 10%;
-  padding: 10% 10% auto 10%;
-  border: 10% 10% auto 10%;
+  margin: 2px 2px auto 2px;
+  padding: 1px;
+  text-align: center;
+}
+
+ul li{
+  margin:0;
 }
 
 .container li {
   display: inline;
-  text-decoration: none;
-  list-style: none;
-  list-style-type: none;
-  list-style-image: none;
   background-color: grey;
   color: white;
-  margin: 10% auto auto 10%;
+  padding: 0;
+  margin: 0 10% 10% 15%;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav .container li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .container li a:visited {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
 }
 
 .intro {
-  border: 50%;
-  font-size: 16px;
-  background-color: grey;
+  border-width: 2em;
+  font-size: 20px;
+  background-color: cyan;
+  color: black;
+  width: 75%;
+  margin: 10px 10px 10% 10%;
+  font-weight: bolder;
+}
+
+.post {
+  display:inline-block;
+}
+
+footer {
+  background-color: black;
   color: white;
-  margin: 10% 10% auto 10%;
+  display: block;
+  text-align: center;
+  font-weight: bolder;
+  margin: 2px 2px auto 2px;
+  padding: 1px;
 }
